@@ -18,7 +18,7 @@ end
 
 def id_generator
   if new_id[:id]
-    new_id[:id] += 
+    new_id[:id] += 1
   else 
     new_id = {id: 1}
   end
