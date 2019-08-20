@@ -17,6 +17,7 @@ def pioneer
 end
 
 def id_generator
+  new_id = {}
   if new_id[:id]
     new_id[:id] += 1
   else 
